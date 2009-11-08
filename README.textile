@@ -6,7 +6,7 @@ If you set a fixed height on the container it can also adjust the font size to m
 
 h1. How it works
 
-Tagalize will first copy anything that isn't an <a> element into a variable and remove it from the DOM. It will then create two new elements inside the container a div with a unique ID and a class of <strong>tagalize-container</strong> and inside that a <p> element. All links in the container will be moved inside the element.
+Tagalize will first copy anything that isn't an a-element into a variable and remove it from the DOM. It will then create two new elements inside the container a div with a unique ID and a class of <strong>tagalize-container</strong> and inside that a p-element. All links in the container will be moved inside the element.
 
 After that it will make size and color adjustments.
 
