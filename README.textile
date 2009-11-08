@@ -6,7 +6,7 @@ If you set a fixed height on the container it can also adjust the font size to m
 
 h1. How it works
 
-Tagalize will first copy anything that isn't an &lt;a&gt; element into a variable and remove it from the DOM. It will then create two new elements inside the container a div with a unique ID and a class of <strong>tagalize-container</strong> and inside that a &lt;p&gt; element. All links in the container will be moved inside the element.
+Tagalize will first copy anything that isn't an &lt;a> element into a variable and remove it from the DOM. It will then create two new elements inside the container a div with a unique ID and a class of <strong>tagalize-container</strong> and inside that a &lt;p> element. All links in the container will be moved inside the element.
 
 After that it will make size and color adjustments.
 
@@ -18,26 +18,26 @@ Example code
 
 <pre>
 <code>
-&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
-&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
-&lt;head&gt;
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+&lt;html xmlns="http://www.w3.org/1999/xhtml">
+&lt;head>
 		
-	&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+	&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		
-	&lt;title&gt;Tagcloud Test&lt;/title&gt;
+	&lt;title>Tagcloud Test&lt;/title>
 	
-	&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js" type="text/javascript"&gt;&lt;/script&gt;
-	&lt;script type="text/javascript" src="jquery.tagalize.js"&gt;&lt;/script&gt;
-	&lt;script type="text/javascript"&gt;
+	&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js" type="text/javascript">&lt;/script>
+	&lt;script type="text/javascript" src="jquery.tagalize.js">&lt;/script>
+	&lt;script type="text/javascript">
 	 $(document).ready(function() {
 	   $('.tags-1').tagalize({
 	     startColor: 'ff00cc',
 	     endColor: 'ffffff',
 	   });
 	 });
-	&lt;/script&gt;
+	&lt;/script>
 	
-	&lt;style type="text/css"&gt;
+	&lt;style type="text/css">
 	 p {
 	   padding: 0;
 	   margin: 0;
@@ -57,29 +57,29 @@ Example code
 	 a {
 	   text-decoration: none;
 	 }
-	&lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
+	&lt;/style>
+&lt;/head>
+&lt;body>
 
-&lt;div class="tags-1"&gt;
-    &lt;a href="#"&gt;Lorem&lt;/a&gt;
-    &lt;a href="#"&gt;ipsum&lt;/a&gt;
-    &lt;a href="#"&gt;dolor&lt;/a&gt;
-    &lt;a href="#"&gt;consectetur&lt;/a&gt;
-    &lt;a href="#"&gt;sit&lt;/a&gt;
-    &lt;a href="#"&gt;amet&lt;/a&gt;
-    &lt;a href="#"&gt;adipisicing&lt;/a&gt;
-    &lt;a href="#"&gt;elit&lt;/a&gt;
-    &lt;a href="#"&gt;sed&lt;/a&gt;
-    &lt;a href="#"&gt;do&lt;/a&gt;
-    &lt;a href="#"&gt;eiusmod&lt;/a&gt;
-    &lt;a href="#"&gt;tempor&lt;/a&gt;
-    &lt;a href="#"&gt;incididunt&lt;/a&gt;
-    &lt;a href="#"&gt;labore&lt;/a&gt;
-&lt;/div&gt;
+&lt;div class="tags-1">
+    &lt;a href="#">Lorem&lt;/a>
+    &lt;a href="#">ipsum&lt;/a>
+    &lt;a href="#">dolor&lt;/a>
+    &lt;a href="#">consectetur&lt;/a>
+    &lt;a href="#">sit&lt;/a>
+    &lt;a href="#">amet&lt;/a>
+    &lt;a href="#">adipisicing&lt;/a>
+    &lt;a href="#">elit&lt;/a>
+    &lt;a href="#">sed&lt;/a>
+    &lt;a href="#">do&lt;/a>
+    &lt;a href="#">eiusmod&lt;/a>
+    &lt;a href="#">tempor&lt;/a>
+    &lt;a href="#">incididunt&lt;/a>
+    &lt;a href="#">labore&lt;/a>
+&lt;/div>
 
-&lt;/body&gt;
-&lt;/html&gt;
+&lt;/body>
+&lt;/html>
 </pre>
 </code>
 
