@@ -15,7 +15,6 @@
       sizeStep:     3,
       fontDecreaseStep: 0.1,
       sizeToFit:    true,
-      maxTries:     20,
     };
     
     // Override settings
