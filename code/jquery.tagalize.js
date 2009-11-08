@@ -9,8 +9,8 @@
     // Default config
     var config = {
       maxTries:     20,
-      startColor:   'b2281c',
-      endColor:     'f7ce56',
+      startColor:   '000000',
+      endColor:     '000000',
       startSize:    2.5,
       sizeStep:     3,
       fontDecreaseStep: 0.1,
