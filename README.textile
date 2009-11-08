@@ -86,7 +86,7 @@ Example code
 </code>
 
 This will look like this:
-!screenshot.png(Example)!
+!http://github.com/Simme/jQuery-Tagalize/raw/master/example.png(Example)!
 
 h1. Options
 
