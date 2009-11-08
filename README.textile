@@ -85,6 +85,9 @@ Example code
 </pre>
 </code>
 
+This will look like this:
+!screenshot.png(Example)!
+
 h1. Options
 
 Options and their defaults
